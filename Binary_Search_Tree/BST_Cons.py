@@ -6,7 +6,7 @@ class Node:
 
 class BST:
     def __init__(self):
-        self.root = None
+        self.root = None 
 
 
 my_tree = BST()
