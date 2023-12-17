@@ -18,7 +18,7 @@ class Graph:
             self.adj_list[v2].append(v1)
             return True
         return False
-
+ 
     
 
 my_graph = Graph()
