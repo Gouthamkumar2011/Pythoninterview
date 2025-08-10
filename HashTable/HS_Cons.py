@@ -15,4 +15,6 @@ class HashTable:
 myHT = HashTable()
 myHT.print_table()
 
+myHT.print_table()
+
 
