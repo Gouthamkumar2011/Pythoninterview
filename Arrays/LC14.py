@@ -1,4 +1,4 @@
-def longestcommonprefix(strs):
+def longestcommonsprefix(strs):
     res = ""
     for i in range(len(strs[0])):
         for s in strs:
@@ -7,4 +7,4 @@ def longestcommonprefix(strs):
         res += strs[0][i]
     return res 
 
-print(longestcommonprefix(["flower","flow","flight"]))
+print(longestcommonsprefix(["flower","flow","flight"]))
